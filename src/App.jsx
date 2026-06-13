@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Men from "./pages/Men";
-import Women from "./pages/Women";
-import Accessories from "./pages/Accessories";
-import Cart from "./components/Cart";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
+import Men from "./Pages/Men";
+import Women from "./Pages/Women";
+import Accessories from "./Pages/Accessories";
+import Cart from "./Components/cart";
 import "./App.css";
 
 export default function App() {
