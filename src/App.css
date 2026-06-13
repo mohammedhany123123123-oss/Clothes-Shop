@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f7f8fa;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: #0077cc;
+  font-weight: 700;
+}
+
+.links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.links a:hover {
+  color: #0077cc;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(to right, #e0f7ff, #fefefe);
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: #555;
+}
+
+.hero-btns {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  background: #0077cc;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* Products */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.price {
+  font-weight: 600;
+  color: #0077cc;
+}
+
+button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Page */
+.page {
+  padding: 2rem;
+  text-align: center;
+}
