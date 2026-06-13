@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Men from "./Pages/Men";
 import Women from "./Pages/Women";
 import Accessories from "./Pages/Accessories";
 import Cart from "./Components/cart";
+
 import "./App.css";
 
 export default function App() {
@@ -22,6 +24,7 @@ export default function App() {
   return (
     <Router>
       <Navbar cartCount={cart.length} />
+
       <Routes>
         <Route path="/" element={<Home addToCart={addToCart} />} />
         <Route path="/men" element={<Men addToCart={addToCart} />} />
